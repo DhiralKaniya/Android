@@ -64,3 +64,15 @@ Menu menu = navigationView.getMenu();
 
 13 :- Google Map
 -https://developers.google.com/maps/documentation/android-api/
+
+14 : Spinner
+-https://www.tutorialspoint.com/android/android_spinner_control.htm
+-https://developer.android.com/guide/topics/ui/controls/spinner.html
+
+15 :- Push Notification Resources
+-https://www.youtube.com/watch?v=wKwCgabRV2A
+
+-https://github.com/firebase/quickstart-android/tree/master/messaging/app/src/main/java/com/google/firebase/quickstart/fcm
+-https://github.com/firebase/quickstart-android
+-https://console.firebase.google.com/project/godirectives/overview
+-https://www.simplifiedcoding.net/firebase-cloud-messaging-tutorial-android/
