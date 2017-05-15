@@ -1,0 +1,66 @@
+Important Links 
+
+1 :- Fragment
+-https://examples.javacodegeeks.com/android/core/app/fragment/android-fragments-example/
+-https://developer.android.com/training/basics/fragments/fragment-ui.html
+
+2 :- Sugar ORM
+-http://satyan.github.io/sugar/getting-started.html
+
+3 :- Gallery View
+-www.androidinterview.com/android-gallery-view-example-displaying-a-list-of-images/
+
+4 :- Map View
+-http://stackoverflow.com/questions/19353255/how-to-put-google-maps-v2-on-a-fragment-using-viewpager
+-https://developers.google.com/maps/documentation/android-api/start
+
+5 :- StaggeredGrid View
+-https://github.com/etsy/AndroidStaggeredGrid
+-http://www.technotalkative.com/lazy-productive-android-developer-part-6-staggered-gridview/
+-http://square.github.io/picasso/
+-
+	compile 'com.squareup.picasso:picasso:2.5.2'
+	compile 'com.squareup.okhttp:okhttp:2.4.0'
+6 :- Push Notification
+
+7 :- Constraint Layout
+
+-https://developer.android.com/training/constraint-layout/index.html
+
+7 :- ToolBar
+-https://guides.codepath.com/android/Using-the-App-Toolbar
+-https://developer.android.com/training/material/theme.html
+-https://chris.banes.me/2014/10/17/appcompat-v21/
+
+for color platter/combination :- https://www.materialpalette.com/
+to enable back button in the toolbar :- http://stackoverflow.com/questions/26651602/display-back-arrow-on-toolbar-android
+
+8 :- Registration Form
+-https://mesosfer.com/community/build-android-mobile-application-signup-mesosfer-cloud-platform.html
+
+9 :- Full screen view manually
+-http://stackoverflow.com/questions/2868047/fullscreen-activity-in-android
+
+Menu menu = navigationView.getMenu();
+        username = getIntent().getStringExtra("username");
+        if(username.equals("admin")){
+            menu.findItem(R.id.nav_product_add).setVisible(true);
+        }else{
+            menu.findItem(R.id.nav_product_add).setVisible(false);
+        }
+
+10 :- SharedPreferences 
+-https://developer.android.com/training/basics/data-storage/shared-preferences.html
+-http://stackoverflow.com/questions/12639899/shared-preferences-in-android
+
+11 :- Tab layout
+-https://developer.android.com/training/implementing-navigation/lateral.html
+-http://stackoverflow.com/questions/35058819/android-tablayout-inside-fragment
+-https://www.simplifiedcoding.net/android-tablayout-example-using-viewpager-fragments/
+
+12 :- Datetime picker
+-http://www.technotalkative.com/android-datepickerdialog-example/
+-http://stackoverflow.com/questions/27225815/android-how-to-show-datepicker-in-fragment
+
+13 :- Google Map
+-https://developers.google.com/maps/documentation/android-api/
