@@ -71,8 +71,9 @@ Menu menu = navigationView.getMenu();
 
 15 :- Push Notification Resources
 -https://www.youtube.com/watch?v=wKwCgabRV2A
-
+-http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/x
 -https://github.com/firebase/quickstart-android/tree/master/messaging/app/src/main/java/com/google/firebase/quickstart/fcm
 -https://github.com/firebase/quickstart-android
 -https://console.firebase.google.com/project/godirectives/overview
 -https://www.simplifiedcoding.net/firebase-cloud-messaging-tutorial-android/
+
