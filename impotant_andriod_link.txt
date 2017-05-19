@@ -21,9 +21,8 @@ Important Links
 -
 	compile 'com.squareup.picasso:picasso:2.5.2'
 	compile 'com.squareup.okhttp:okhttp:2.4.0'
-6 :- Push Notification
 
-7 :- Constraint Layout
+6 :- Constraint Layout
 
 -https://developer.android.com/training/constraint-layout/index.html
 
@@ -77,3 +76,30 @@ Menu menu = navigationView.getMenu();
 -https://console.firebase.google.com/project/godirectives/overview
 -https://www.simplifiedcoding.net/firebase-cloud-messaging-tutorial-android/
 
+16 :- Working with Contact
+-https://developer.android.com/training/contacts-provider/retrieve-names.html
+
+*To implement this type of retrieval, first implement the following code, as listed in previous sections:
+
+-	Request Permission to Read the Provider.  D
+-	Define ListView and item layouts. D
+-	Define a Fragment that displays the list of contacts.
+-	Define global variables.
+-	Initialize the Fragment.
+-	Set up the CursorAdapter for the ListView.
+-	Set the selected contact listener.
+-	Define constants for the Cursor column indexes.
+-	Although you're retrieving data from a different table, the order of the columns in the projection is the same, so 	you can use the same indexes for the Cursor.
+-	Define the onItemClick() method.
+-	Initialize the loader.
+-	Implement onLoadFinished() and onLoaderReset()
+
+-https://developer.android.com/training/contacts-provider/retrieve-details.html
+-https://looksok.wordpress.com/2013/06/15/android-searchview-tutorial-edittext-with-phone-contacts-search-and-autosuggestion/
+-https://developer.android.com/training/contacts-provider/display-contact-badge.html
+-https://developer.android.com/reference/android/provider/ContactsContract.Contacts.html
+-https://developer.android.com/training/contacts-provider/retrieve-details.html
+-http://stackoverflow.com/questions/11218845/how-to-get-contacts-phone-number-in-android
+
+17 :- Menu
+-https://code.tutsplus.com/tutorials/android-sdk-implement-an-options-menu--mobile-9453
