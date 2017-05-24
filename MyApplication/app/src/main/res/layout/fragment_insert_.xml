@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.the_king.layoutmanager.Insert_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fullscreen_content"
+        android:layout_marginTop="40dp"
+        >
+
+
+        <EditText
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
+            android:inputType="textPersonName"
+            android:hint="Product Name" />
+
+        <EditText
+            android:id="@+id/e2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_below="@+id/e1"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"
+            android:inputType="number"
+            android:hint="Product Cost" />
+
+        <EditText
+            android:id="@+id/e3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/e2"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Manufacture Date"
+            android:selectAllOnFocus="false" />
+
+        <Button
+            android:id="@+id/addButton"
+            style="?actionBarItemBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/e3"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="1"
+            android:onClick="insertRecord"
+            android:text="@string/dummy_button" />
+    </RelativeLayout>
+
+
+</FrameLayout>

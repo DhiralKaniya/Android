@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">LayoutManager</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_logout">Logout</string>
+
+    <string name="hint_email">Enter Email Address</string>
+    <string name="hint_username">Enter username </string>
+    <string name="hint_password">Enter password </string>
+    <string name="hint_cnfpassword">Enter confirm password </string>
+    <string name="hint_date">Enter Birthdate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_caption">Home fragment</string>
+    <string name="gallery_caption">Gallery</string>
+    <string name="contactus_caption">Contact Us</string>
+    <string name="aboutus_caption">About Us</string>
+    <string name="dummy_button">Insert New Record</string>
+    <string name="title_activity_cell">activity_cell</string>
+    <string name="title_login">Login Hello World</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_view1_caption">Company</string>
+    <string name="tab_view2_caption">Emaployee</string>
+    <string name="tab_view3_caption">Product</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="title_activity_login_activity">login_activity</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_toolbar">ToolBar</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="SharedFile">myfile</string>
+    <string name="title_activity_home">Application Layout Manager</string>
+    <string name="login_user">username</string>
+    <string name="login_user_default">user</string>
+
+</resources>
