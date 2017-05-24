@@ -101,6 +101,8 @@ Menu menu = navigationView.getMenu();
 -https://developer.android.com/training/contacts-provider/retrieve-details.html
 -http://stackoverflow.com/questions/11218845/how-to-get-contacts-phone-number-in-android
 -add all contact :- http://stackoverflow.com/questions/12562151/android-get-all-contacts
+-https://developer.android.com/reference/android/provider/ContactsContract.Contacts.Photo.html
+
 
 17 :- Menu
 -https://code.tutsplus.com/tutorials/android-sdk-implement-an-options-menu--mobile-9453
