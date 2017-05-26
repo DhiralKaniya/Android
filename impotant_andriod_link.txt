@@ -69,8 +69,9 @@ Menu menu = navigationView.getMenu();
 -https://developer.android.com/guide/topics/ui/controls/spinner.html
 
 15 :- Push Notification Resources
+-http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/
+-https://console.firebase.google.com/project/findnotified/overview
 -https://www.youtube.com/watch?v=wKwCgabRV2A
--http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/x
 -https://github.com/firebase/quickstart-android/tree/master/messaging/app/src/main/java/com/google/firebase/quickstart/fcm
 -https://github.com/firebase/quickstart-android
 -https://console.firebase.google.com/project/godirectives/overview
@@ -108,9 +109,23 @@ Menu menu = navigationView.getMenu();
 17 :- Menu
 -https://code.tutsplus.com/tutorials/android-sdk-implement-an-options-menu--mobile-9453
 
-16 :- Permission for reading contacts
+18 :- Permission for reading contacts
 -https://developer.android.com/training/permissions/requesting.html
 
-17 :- Content Provider
+19 :- Content Provider
 -https://developer.android.com/guide/topics/providers/content-provider-basics.html
 -https://www.tutorialspoint.com/android/android_content_providers.htm
+
+20 :- API call from the android application
+-CRUD operations :- http://www.androidhive.info/2012/05/how-to-connect-android-with-php-mysql/
+-http://mobiledevtuts.com/android/android-http-with-asynctask-example/
+
+21 :- Volley 
+-https://developer.android.com/training/volley/index.html
+-http://www.androidhive.info/2014/05/android-working-with-volley-library-1/
+-StringRequest :- https://stackoverflow.com/questions/29442977/volley-jsonobjectrequest-post-parameters-no-longer-work
+
+22 :- PHP Restfull API
+-http://www.androidhive.info/2014/01/how-to-create-rest-api-for-android-app-using-php-slim-and-mysql-day-12-2/
+
+vitamio video player
