@@ -128,4 +128,23 @@ Menu menu = navigationView.getMenu();
 22 :- PHP Restfull API
 -http://www.androidhive.info/2014/01/how-to-create-rest-api-for-android-app-using-php-slim-and-mysql-day-12-2/
 
-vitamio video player
+23 :- take user phone number or we can use this for system permission , device number and all.
+-https://stackoverflow.com/questions/23675868/how-to-get-phone-no-of-device-programmatically
+
+24 :- Alert Dialogbox
+-https://stackoverflow.com/questions/19405485/how-to-insert-edittext-number-in-alertdialog-android
+
+25 :- Media Player
+-https://developer.android.com/reference/android/media/MediaPlayer.html
+
+26 :- Video View
+-https://developer.android.com/reference/android/widget/VideoView.html
+
+27 :- vitamio video player
+-https://www.vitamio.org/en/2014/Tutorial_0730/26.html
+-https://github.com/yixia/VitamioBundle
+-https://www.youtube.com/watch?v=sIQP_MqqNWs&t=1s
+-https://karanbalkar.com/2014/11/tutorial-92-live-streaming-using-vitamio-in-android/
+-http://www.truiton.com/2015/03/stream-rtmp-live-android/
+-Android NDKs :- https://github.com/yixia/FFmpeg-Android
+
