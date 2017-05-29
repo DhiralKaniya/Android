@@ -147,4 +147,11 @@ Menu menu = navigationView.getMenu();
 -https://karanbalkar.com/2014/11/tutorial-92-live-streaming-using-vitamio-in-android/
 -http://www.truiton.com/2015/03/stream-rtmp-live-android/
 -Android NDKs :- https://github.com/yixia/FFmpeg-Android
+-https://stackoverflow.com/questions/3686729/mediacontroller-positioning-over-videoview
+
+28 :- Data Binding through MVVM in android.
+
+gradle version shuold be greter than 3.5 
+Lib for databinding must be included between use it in the android in gradle file.
+
 
