@@ -67,6 +67,7 @@ Menu menu = navigationView.getMenu();
 14 : Spinner
 -https://www.tutorialspoint.com/android/android_spinner_control.htm
 -https://developer.android.com/guide/topics/ui/controls/spinner.html
+-https://www.mkyong.com/android/android-spinner-drop-down-list-example/
 
 15 :- Push Notification Resources
 -http://www.androidhive.info/2012/10/android-push-notifications-using-google-cloud-messaging-gcm-php-and-mysql/
@@ -155,3 +156,27 @@ gradle version shuold be greter than 3.5
 Lib for databinding must be included between use it in the android in gradle file.
 
 
+29 :- Designing and material Designing in android.
+-https://aidanfollestad.com/projects.html
+-https://github.com/afollestad/material-dialogs
+
+
+30 :- Alert Box with ListView
+-https://stackoverflow.com/questions/15762905/how-can-i-display-a-list-view-in-an-android-alert-dialog
+
+31 :- Recycle View with Adapter
+-https://developer.android.com/training/material/lists-cards.html
+-Dependency 
+	-  compile 'com.android.support:cardview-v7:21.0.+'
+    	-  compile 'com.android.support:recyclerview-v7:21.0.+'
+
+32 :- Popup Menu on clicking raw in listview
+-https://stackoverflow.com/questions/43674449/open-dialog-after-click-recyclerview-item
+-https://stackoverflow.com/questions/38304604/dialog-open-on-recycler-view-row-button-click
+
+33 :- Get Device height and width at run time.
+-https://stackoverflow.com/questions/10172657/how-to-get-device-height-and-width-at-runtime
+
+34 :- Handling Orientation
+-https://developer.android.com/guide/topics/resources/runtime-changes.html
+-https://stackoverflow.com/questions/9021890/get-phone-orientation-but-fix-screen-orientation-to-portrait
