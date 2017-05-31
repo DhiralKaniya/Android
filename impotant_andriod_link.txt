@@ -137,6 +137,7 @@ Menu menu = navigationView.getMenu();
 
 25 :- Media Player
 -https://developer.android.com/reference/android/media/MediaPlayer.html
+-https://www.tutorialspoint.com/android/android_mediaplayer.htm
 
 26 :- Video View
 -https://developer.android.com/reference/android/widget/VideoView.html
@@ -180,3 +181,50 @@ Lib for databinding must be included between use it in the android in gradle fil
 34 :- Handling Orientation
 -https://developer.android.com/guide/topics/resources/runtime-changes.html
 -https://stackoverflow.com/questions/9021890/get-phone-orientation-but-fix-screen-orientation-to-portrait
+
+35 :- SensorManager basic use is to identify event which our sensor implements.
+
+-	SensorManager sensorManager = (SensorManager)this.getSystemService(Context.SENSOR_SERVICE);
+        sensorManager.registerListener(new SensorEventListener() {
+            int orientation = -1;
+            @Override
+            public void onSensorChanged(SensorEvent event) {
+                if(event.values[1] < 6.5 && event.values[1]>- 6.5){
+                    if(orientation != -1){
+                        Toast.makeText(getApplicationContext(),"sensor -> Landscape",Toast.LENGTH_SHORT).show();
+                    }
+                    orientation = 1;
+                }else{
+                    if(orientation != 0){
+                        Toast.makeText(getApplicationContext(),"sensor -> Portrait",Toast.LENGTH_SHORT).show();
+                    }
+                    orientation = 0;
+                }
+            }
+
+            @Override
+            public void onAccuracyChanged(Sensor sensor, int accuracy) {
+
+            }
+        },sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER),sensorManager.SENSOR_DELAY_GAME);
+
+36 :- Gesture Controller
+
+*Started
+-https://developer.android.com/training/gestures/index.html
+
+*Detector
+-https://developer.android.com/training/gestures/detector.html
+
+
+-https://www.tutorialspoint.com/android/android_gestures.htm
+-https://stackoverflow.com/questions/22904826/videoview-with-gestureswipe-function-in-android
+-http://www.androidhive.info/2014/12/how-to-play-youtube-video-in-android-app/
+-https://github.com/DhiralKaniya/fenster
+
+37 :- Seekbar Controller
+-https://developer.android.com/reference/android/widget/SeekBar.html
+-https://www.javatpoint.com/android-seekbar-example
+
+38 :- Brightness Manage
+-http://programmerguru.com/android-tutorial/how-to-change-screen-brightness-programmatically/
