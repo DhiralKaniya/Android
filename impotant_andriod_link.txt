@@ -4,8 +4,11 @@ Important Links
 -https://examples.javacodegeeks.com/android/core/app/fragment/android-fragments-example/
 -https://developer.android.com/training/basics/fragments/fragment-ui.html
 
-2 :- Sugar ORM
+2.1 :- Sugar ORM
 -http://satyan.github.io/sugar/getting-started.html
+
+2.2 :- SQLLite 
+-https://www.tutorialspoint.com/android/android_sqlite_database.htm
 
 3 :- Gallery View
 -www.androidinterview.com/android-gallery-view-example-displaying-a-list-of-images/
@@ -149,6 +152,10 @@ Menu menu = navigationView.getMenu();
 -https://karanbalkar.com/2014/11/tutorial-92-live-streaming-using-vitamio-in-android/
 -http://www.truiton.com/2015/03/stream-rtmp-live-android/
 -Android NDKs :- https://github.com/yixia/FFmpeg-Android
+-https://stackoverflow.com/questions/3686729/mediacontroller-positioning-over-videoview
+-rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov
+-https://www.tvonlinestreams.com/rtmp-iptv-list/
+-rtmp://77.68.36.54:1935/live/channel_2_2
 -https://stackoverflow.com/questions/3686729/mediacontroller-positioning-over-videoview
 
 28 :- Data Binding through MVVM in android.
