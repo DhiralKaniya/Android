@@ -232,6 +232,14 @@ Lib for databinding must be included between use it in the android in gradle fil
 37 :- Seekbar Controller
 -https://developer.android.com/reference/android/widget/SeekBar.html
 -https://www.javatpoint.com/android-seekbar-example
+-https://github.com/syedowaisali/crystal-range-seekbar
 
 38 :- Brightness Manage
 -http://programmerguru.com/android-tutorial/how-to-change-screen-brightness-programmatically/
+
+39 :-  Icon Generator
+-https://android-material-icon-generator.bitdroid.de/#section-material-icons
+
+
+40 :- 360 camera for product
+-https://github.com/jlfreund/Capture360/blob/master/app/src/main/java/motorola/com/camera360/ViewFinderActivity.java
