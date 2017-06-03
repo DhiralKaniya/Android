@@ -243,3 +243,14 @@ Lib for databinding must be included between use it in the android in gradle fil
 
 40 :- 360 camera for product
 -https://github.com/jlfreund/Capture360/blob/master/app/src/main/java/motorola/com/camera360/ViewFinderActivity.java
+
+Visited and Tested Lib for 360 camera
+-https://github.com/rameshvoltella/360-Productview-Android-App
+-https://github.com/Camera360SDKs/Camera360SDK-for-Android/blob/master/doc/Camera360EditSDK_Android_Gradle.zip
+
+41 :- Image from the camera
+-https://developer.android.com/training/camera/photobasics.html
+-http://www.androidhive.info/2013/09/android-working-with-camera-api/
+-http://www.tutorialspoint.com/android/android_camera.htm
+-https://inducesmile.com/android/store-captured-image-in-sd-card-using-android-camera-application/
+-https://stackoverflow.com/questions/32329461/how-to-get-path-of-picture-in-onactivityresult-intent-data-is-null
