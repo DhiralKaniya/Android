@@ -254,3 +254,7 @@ Visited and Tested Lib for 360 camera
 -http://www.tutorialspoint.com/android/android_camera.htm
 -https://inducesmile.com/android/store-captured-image-in-sd-card-using-android-camera-application/
 -https://stackoverflow.com/questions/32329461/how-to-get-path-of-picture-in-onactivityresult-intent-data-is-null
+
+42 :- Task for project AMS
+- Apartment Maitanance Management Service.
+
