@@ -258,3 +258,28 @@ Visited and Tested Lib for 360 camera
 42 :- Task for project AMS
 - Apartment Maitanance Management Service.
 
+43 :- EventBus 
+-https://github.com/greenrobot/EventBus
+-http://greenrobot.org/eventbus/
+-https://github.com/gunhansancar/eventbus-example
+
+44 :- DiffUtil
+-https://medium.com/@iammert/using-diffutil-in-android-recyclerview-bdca8e4fbb00
+-https://developer.android.com/reference/android/support/v7/util/DiffUtil.html
+-https://medium.com/proandroiddev/diffutil-is-a-must-797502bc1149
+
+45 :- Handler
+-https://stackoverflow.com/questions/22718951/stop-handler-postdelay
+-Handler timerHandler;
+timerHandler = new Handler();
+
+Runnable timerRunnable = new Runnable() {
+    @Override
+    public void run() {
+        // Here you can update your adapter data
+        yourAdapter.notifyDataSetChanged();
+        timerHandler.postDelayed(this, 1000); //run every second
+    }
+};
+
+timerHandler.postDelayed(timerRunnable, 1000);
