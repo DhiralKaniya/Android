@@ -16,7 +16,7 @@
         @Override
         protected String doInBackground(String... params) {
             try{
-                url = new URL("https://www.betfair.com/inplayservice/v1/eventTimeline?alt=json&eventId=28261465&locale=en_GB");
+                url = new URL("YOUR URL");
             }catch (MalformedURLException e){
                 Log.e(TAG,e.getMessage());
                 return e.getMessage();
