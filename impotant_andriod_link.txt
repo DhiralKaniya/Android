@@ -176,7 +176,8 @@ Lib for databinding must be included between use it in the android in gradle fil
 -https://developer.android.com/training/material/lists-cards.html
 -Dependency 
 	-  compile 'com.android.support:cardview-v7:21.0.+'
-    	-  compile 'com.android.support:recyclerview-v7:21.0.+'
+    	-  compile 'com.android.support:recyclerview-v7:25149a2
+-https://medium.com/@hanru.yeh/recyclerviews-views-are-blinking-when-notifydatasetchanged-c7b76d5149a2
 
 32 :- Popup Menu on clicking raw in listview
 -https://stackoverflow.com/questions/43674449/open-dialog-after-click-recyclerview-item
@@ -267,6 +268,14 @@ Visited and Tested Lib for 360 camera
 -https://medium.com/@iammert/using-diffutil-in-android-recyclerview-bdca8e4fbb00
 -https://developer.android.com/reference/android/support/v7/util/DiffUtil.html
 -https://medium.com/proandroiddev/diffutil-is-a-must-797502bc1149
+-Process :- 
+	1)Provide following Custom methods.
+		DiffUtil.Callback
+		DiffUtil.calculateDiff
+		DiffUtil.DiffResult
+	2)Update your dataset
+	3)Call diffResult.dispatchUpdateTo(recycleviewAdapter) method
+-http://blogs.quovantis.com/how-to-use-diffutil-with-recyclerview-adapter-in-android/
 
 45 :- Handler
 -https://stackoverflow.com/questions/22718951/stop-handler-postdelay
@@ -283,3 +292,28 @@ Runnable timerRunnable = new Runnable() {
 };
 
 timerHandler.postDelayed(timerRunnable, 1000);
+
+- if(i%2 == 0) {
+            myPerson = Dataprovider.getOldPersonList();
+            myPerson.add(new Person(6, 15, "world"));
+            List<Person> myList = Dataprovider.sortByAge(myPerson);
+            myAdapter.updateList(myList);
+        }else{
+            myPerson = Dataprovider.getNewPersonList();
+            myPerson.add(new Person(7,22,"new"));
+            List<Person> myList = Dataprovider.sortByAge(myPerson);
+            myAdapter.updateList(myList);
+        }
+
+
+46 :- Fetching data from JSON
+-{specify Object data}
+-[specify Array Data]
+-https://developer.android.com/reference/org/json/JSONObject.html
+
+*JSON Array
+-http://www.androidhive.info/2012/01/android-json-parsing-tutorial/
+-http://androidcss.com/android/fetch-json-data-android/
+
+*JSON Object
+-https://www.tutorialspoint.com/android/android_json_parser.htm
