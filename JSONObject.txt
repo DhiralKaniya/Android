@@ -1,0 +1,85 @@
+  private class AsynFetch extends AsyncTask<String,String,String>{
+        ProgressDialog pDialog = new ProgressDialog(MainActivity.this);
+        HttpURLConnection conn;
+        URL url = null;
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            pDialog.setMessage("Fetching Data");
+            pDialog.setCancelable(false);
+            pDialog.show();
+        }
+
+
+
+        @Override
+        protected String doInBackground(String... params) {
+            try{
+                url = new URL("custom url");
+            }catch (MalformedURLException e){
+                Log.e(TAG,e.getMessage());
+                return e.getMessage();
+            }
+            try {
+                conn = (HttpURLConnection)url.openConnection();
+                //time in milliseconds
+                conn.setReadTimeout(15000);
+                conn.setConnectTimeout(10000);
+                conn.setRequestMethod("GET");
+                conn.setDoInput(true);
+            } catch (IOException e) {
+                e.printStackTrace();
+                return e.getMessage();
+            }
+
+            try {
+                int response_code = conn.getResponseCode();
+                if(response_code == HttpURLConnection.HTTP_OK){
+
+                    InputStream input = conn.getInputStream();
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(input));
+                    StringBuilder result = new StringBuilder();
+                    String line;
+                    while((line = reader.readLine()) != null){
+                        result.append(line);
+                    }
+                    return result.toString();
+                }else{
+                    return "unsuccessful";
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+                return e.getMessage();
+            }
+        }
+        @Override
+        protected void onPostExecute(String s) {
+            try {
+                JSONObject jsonObject = new JSONObject(s);
+                myEvent.setEventid(jsonObject.getString("eventId"));
+                myEvent.setEventtypeid(jsonObject.getString("eventTypeId"));
+                myEvent.setInplaymatches("inPlayMatchStatus");
+                myEvent.setStatus("status");
+                JSONArray myUpdateDetails = jsonObject.getJSONArray("updateDetails");
+                for(int i=0;i<myUpdateDetails.length();i++){
+                    String key = myUpdateDetails.getJSONObject(i).getString("name");
+                    String value = myUpdateDetails.getJSONObject(i).getString("value");
+                    myEvent.addUpdateDetails(key,value);
+                }
+                JSONObject score = jsonObject.getJSONObject("score");
+                Score home = new Score(score.getJSONObject("home"),"home");
+                Score away = new Score(score.getJSONObject("away"),"away");
+
+                myEvent.addScore(home);
+                myEvent.addScore(away);
+
+                Log.d(TAG,myEvent.getEventid()+" " + myEvent.getStatus() + " "+ ((Score)myEvent.getScore(1)).getType());
+
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+
+            pDialog.dismiss();
+        }
+    }
