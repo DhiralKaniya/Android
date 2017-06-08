@@ -317,3 +317,6 @@ timerHandler.postDelayed(timerRunnable, 1000);
 
 *JSON Object
 -https://www.tutorialspoint.com/android/android_json_parser.htm
+
+47 :- DP to px convertor
+-https://pixplicity.com/dp-px-converter/
