@@ -320,3 +320,10 @@ timerHandler.postDelayed(timerRunnable, 1000);
 
 47 :- DP to px convertor
 -https://pixplicity.com/dp-px-converter/
+
+48 :- Searchable Configuration
+-https://developer.android.com/guide/topics/search/search-dialog.html#SearchableConfiguration
+-https://coderwall.com/p/zpwrsg/add-search-function-to-list-view-in-android
+ 
+* with Recycleview
+-https://www.learn2crack.com/2017/03/searchview-with-recyclerview.html
