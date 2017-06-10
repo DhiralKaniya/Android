@@ -327,3 +327,16 @@ timerHandler.postDelayed(timerRunnable, 1000);
  
 * with Recycleview
 -https://www.learn2crack.com/2017/03/searchview-with-recyclerview.html
+
+49 :- Android studio Preview Version
+-https://developer.android.com/studio/preview/install-preview.html
+
+50 :- DataBinding
+-https://developer.android.com/topic/libraries/data-binding/index.html
+-https://www.learn2crack.com/2016/06/android-data-binding-example.html
+
+51 :- MVVM and DataBinding
+-http://blog.grio.com/2016/03/building-android-apps-with-mvvm-and-data-binding.html
+
+52 :- Thread Communication book
+https://www.safaribooksonline.com/library/view/efficient-android-threading/9781449364120/ch04.html
