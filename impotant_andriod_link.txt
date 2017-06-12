@@ -340,3 +340,9 @@ timerHandler.postDelayed(timerRunnable, 1000);
 
 52 :- Thread Communication book
 https://www.safaribooksonline.com/library/view/efficient-android-threading/9781449364120/ch04.html
+
+53 :- DataBinding in RecycleView
+-http://www.devexchanges.info/2016/09/using-data-binding-with-recyclerview-in.html
+
+54 :- DataBinding Login Example 
+-https://medium.com/google-developers/android-data-binding-2-way-your-way-ccac20f6313
