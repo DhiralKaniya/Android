@@ -346,3 +346,12 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 54 :- DataBinding Login Example 
 -https://medium.com/google-developers/android-data-binding-2-way-your-way-ccac20f6313
+
+
+55 :- DataBinding Library
+-https://github.com/erikcaffrey/People-MVVM
+
+56 :- __Roomdb
+-(Basic Data-Storage)https://developer.android.com/training/basics/data-storage/databases.html
+-(Room DB)https://developer.android.com/topic/libraries/architecture/room.html
+-https://github.com/googlesamples/android-architecture-components
