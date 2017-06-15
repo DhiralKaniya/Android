@@ -325,8 +325,9 @@ timerHandler.postDelayed(timerRunnable, 1000);
 -https://developer.android.com/guide/topics/search/search-dialog.html#SearchableConfiguration
 -https://coderwall.com/p/zpwrsg/add-search-function-to-list-view-in-android
  
-* with Recycleview
+* with Recyclerview
 -https://www.learn2crack.com/2017/03/searchview-with-recyclerview.html
+-Nested Recyclerview :- https://github.com/jeffreyliu8/Nested-RecyclerView
 
 49 :- Android studio Preview Version
 -https://developer.android.com/studio/preview/install-preview.html
