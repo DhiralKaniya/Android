@@ -364,3 +364,6 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 58 :- AtomicBoolean
 -https://developer.android.com/reference/java/util/concurrent/atomic/AtomicBoolean.html
+
+59 :- Retrofit
+-http://www.androidhive.info/2016/05/android-working-with-retrofit-http-library/
