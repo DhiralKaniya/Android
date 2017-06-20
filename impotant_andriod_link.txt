@@ -177,7 +177,9 @@ Lib for databinding must be included between use it in the android in gradle fil
 -Dependency 
 	-  compile 'com.android.support:cardview-v7:21.0.+'
     	-  compile 'com.android.support:recyclerview-v7:25149a2
+
 -https://medium.com/@hanru.yeh/recyclerviews-views-are-blinking-when-notifydatasetchanged-c7b76d5149a2
+-https://stackoverflow.com/questions/26245139/how-to-create-recyclerview-with-multiple-view-type
 
 32 :- Popup Menu on clicking raw in listview
 -https://stackoverflow.com/questions/43674449/open-dialog-after-click-recyclerview-item
@@ -351,6 +353,7 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 55 :- DataBinding Library
 -https://github.com/erikcaffrey/People-MVVM
+-https://stackoverflow.com/questions/33962548/how-to-data-bind-to-a-header
 
 56 :- __Roomdb
 -(Basic Data-Storage)https://developer.android.com/training/basics/data-storage/databases.html
@@ -367,3 +370,7 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 59 :- Retrofit
 -http://www.androidhive.info/2016/05/android-working-with-retrofit-http-library/
+
+60 :- Online Image Dealing Library.
+-https://github.com/bumptech/glide
+-http://square.github.io/picasso/
