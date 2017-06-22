@@ -354,6 +354,7 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 55 :- DataBinding Library
 -https://github.com/erikcaffrey/People-MVVM
 -https://stackoverflow.com/questions/33962548/how-to-data-bind-to-a-header
+-https://stackoverflow.com/questions/40039942/i-want-to-concat-two-strings-for-a-textview-in-android-data-binding-api
 
 56 :- __Roomdb
 -(Basic Data-Storage)https://developer.android.com/training/basics/data-storage/databases.html
@@ -374,3 +375,26 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 60 :- Online Image Dealing Library.
 -https://github.com/bumptech/glide
 -http://square.github.io/picasso/
+
+61 :- Indicator
+-https://github.com/81813780/AVLoadingIndicatorView
+-make window disable and progressbar visible:-https://stackoverflow.com/questions/36918219/how-to-disable-user-interaction-while-progressbar-is-visible-in-android
+-customer progressbar :- https://stackoverflow.com/questions/18021148/display-a-loading-overlay-on-android-screen
+	(Try to implement with AVLoading Indicator View)
+
+62 :- RadioButton and RadioGroup
+-https://developer.android.com/guide/topics/ui/controls/radiobutton.html
+
+63 :- Spinner 
+-https://developer.android.com/guide/topics/ui/controls/spinner.html
+
+64 :- Denim Size
+-https://stackoverflow.com/questions/32860815/how-to-define-dimens-xml-for-every-different-screen-size-in-android
+
+65 :- InverseBinding
+-https://developer.android.com/reference/android/databinding/InverseBindingListener.html
+
+66 :- DataBinding Spinner
+-https://stackoverflow.com/questions/37874091/android-spinner-data-binding-using-xml-and-show-the-selected-values
+-https://stackoverflow.com/questions/39042222/spinner-2-way-databinding?noredirect=1&lq=1
+-https://stackoverflow.com/questions/40858770/how-to-dynamically-change-view-visibility-using-android-data-binding	
