@@ -409,3 +409,6 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 68 :- Email Pattern
 -[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+
+
+69 :- Different Options Menu on different fragment
+-https://stackoverflow.com/questions/23338937/how-can-i-change-option-menu-in-different-fragments
