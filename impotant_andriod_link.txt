@@ -412,3 +412,11 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 69 :- Different Options Menu on different fragment
 -https://stackoverflow.com/questions/23338937/how-can-i-change-option-menu-in-different-fragments
+
+70 :- Barcode generator in android
+-https://www.youtube.com/watch?v=Fe7F4Jx7rwo
+-https://www.simplifiedcoding.net/android-qr-code-scanner-tutorial/
+-https://stackoverflow.com/questions/10353392/generate-barcode-image-in-android-application
+
+71 :- Dev Index Overflow
+-https://stackoverflow.com/questions/15209831/unable-to-execute-dex-method-id-not-in-0-0xffff-65536
