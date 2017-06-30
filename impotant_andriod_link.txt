@@ -420,3 +420,14 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 71 :- Dev Index Overflow
 -https://stackoverflow.com/questions/15209831/unable-to-execute-dex-method-id-not-in-0-0xffff-65536
+
+72 :- Zxing Integration for android
+-https://stackoverflow.com/questions/27851512/how-to-integrate-zxing-library-to-android-studio-for-barcode-scanning
+-http://repo1.maven.org/maven2/com/google/zxing/core/3.2.1/
+
+73 :- encrypt - decrypt data
+-https://stackoverflow.com/questions/40123319/easy-way-to-encrypt-decrypt-string-in-android
+-https://android-developers.googleblog.com/2016/06/security-crypto-provider-deprecated-in.html
+
+74 :- Android Lib
+-https://medium.freecodecamp.org/25-new-android-libraries-which-you-definitely-want-to-try-at-the-beginning-of-2017-45878d5408c0
