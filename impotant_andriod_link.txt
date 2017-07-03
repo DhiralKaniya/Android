@@ -424,6 +424,7 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 72 :- Zxing Integration for android
 -https://stackoverflow.com/questions/27851512/how-to-integrate-zxing-library-to-android-studio-for-barcode-scanning
 -http://repo1.maven.org/maven2/com/google/zxing/core/3.2.1/
+-https://stackoverflow.com/questions/34983201/change-qr-scanner-orientation-with-zxing-in-android-studio
 
 73 :- encrypt - decrypt data
 -https://stackoverflow.com/questions/40123319/easy-way-to-encrypt-decrypt-string-in-android
@@ -431,3 +432,7 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 74 :- Android Lib
 -https://medium.freecodecamp.org/25-new-android-libraries-which-you-definitely-want-to-try-at-the-beginning-of-2017-45878d5408c0
+-https://medium.freecodecamp.org/30-new-android-libraries-released-in-the-spring-of-2017-which-deserve-your-attention-faea359a1915
+
+75 :- Custom Android Alert Box
+-https://stackoverflow.com/questions/44718011/recyclerview-with-databinding-mvvm?noredirect=1#comment76682095_44718011
