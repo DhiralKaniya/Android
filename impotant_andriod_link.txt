@@ -436,3 +436,9 @@ https://www.safaribooksonline.com/library/view/efficient-android-threading/97814
 
 75 :- Custom Android Alert Box
 -https://stackoverflow.com/questions/44718011/recyclerview-with-databinding-mvvm?noredirect=1#comment76682095_44718011
+
+76 :- PDF Viewer
+-https://github.com/HendrixString/Android-PdfMyXml
+
+77 :- Take Image and Update it in server
+-https://www.simplifiedcoding.net/android-volley-tutorial-to-upload-image-to-server/
